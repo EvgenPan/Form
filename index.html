@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Form</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper_form">
+      <hr/>
+    <h2 class="title_form">Register</h2>
+    <p class="subtitle_form">Create ypur account. It's free and only takes a minute.</p>
+    <form action="" id="form_reg" method="post">
+      <fieldset class="wrapper_name">
+        <input class="F-name" type="text" name="Fname" required
+        placeholder="First name" autofocus>
+        <input class="L-name" type="text" name="Lname" required
+        placeholder="Lastname">
+      </fieldset>
+      <input type="email" name="Email" required
+      placeholder="Email">
+      <input type="password" name="Pass" required
+      placeholder="Password">
+      <input type="password"  required
+      placeholder="Confirm Password">
+      <div class="checkbox">
+      <input type="checkbox" name="terms"
+      required>
+      <div class="terms_text"> I aceps the <a href="" class="link_g">Terms of Use</a> & <a href="" class="link_g">Terms of Use</a> </div>
+    </div>
+    </form>
+    <button type="submit" form="form_reg" value="Submit">Register Now</button>
+
+  </div>
+  </main>
+</body>
+</html>
